@@ -1,0 +1,7 @@
+{
+	"provideLibs": [	
+		    "libdummy_tree_dev-x86_64-v2.so",
+		    "libdummy_tree_dev.so"
+	],
+	"visible": true
+}

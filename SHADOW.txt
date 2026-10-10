@@ -1,0 +1,8 @@
+shadow prebuilt repo: tree (target)
+  registry: org.blisslabs.ag.tree v1 (+dev +doc), Forgejo ag-ci apex repo, 2026-09-29
+  api-level: 32 (CI-built; branch 32-20261010)
+  upstream: external/tree
+  layout: *.apex blobs at root; dev payload extracted under dev-src/;
+          root Android.bp regenerated via tools/gen_extractive_bp.py on dev-src
+          (srcs rewritten to dev-src/ prefix).
+  date: 2026-10-10
