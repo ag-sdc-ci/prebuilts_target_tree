@@ -4,3 +4,17 @@
 package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
+
+prebuilt_apex {
+    name: "org.blisslabs.ag.tree",
+    apex_name: "tree",
+    source_apex_name: "tree",
+    arch: {
+        x86_64: {
+            src: "org.blisslabs.ag.tree-1.apex",
+        },
+    },
+    filename: "org.blisslabs.ag.tree-1.apex",
+    prefer: true,
+    installable: true,
+}
